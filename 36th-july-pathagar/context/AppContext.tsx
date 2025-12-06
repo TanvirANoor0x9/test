@@ -2,6 +2,9 @@ import { supabase } from '../services/supabaseClient';
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { Activity, Notice, PaymentMethod, Transaction, Admin, AppSettings, ThemeColor } from '../types';
 
+// …rest of the file…
+
+
 // Import the Supabase client.  This client is configured using environment
 // variables (see services/supabaseClient.ts).  Real‑time synchronization
 // between clients is driven by the subscriptions defined below.
