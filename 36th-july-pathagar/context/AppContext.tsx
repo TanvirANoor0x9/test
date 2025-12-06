@@ -8,7 +8,6 @@ import { Activity, Notice, PaymentMethod, Transaction, Admin, AppSettings, Theme
 // Import the Supabase client.  This client is configured using environment
 // variables (see services/supabaseClient.ts).  Real‑time synchronization
 // between clients is driven by the subscriptions defined below.
-import { supabase } from '../services/supabaseClient';
 
 interface AppContextType {
   isAdmin: boolean;
