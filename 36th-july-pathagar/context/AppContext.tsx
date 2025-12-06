@@ -1,3 +1,4 @@
+import { supabase } from '../services/supabaseClient';
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { Activity, Notice, PaymentMethod, Transaction, Admin, AppSettings, ThemeColor } from '../types';
 
